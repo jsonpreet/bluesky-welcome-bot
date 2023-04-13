@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@atproto/api": "^0.2.5",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  },
+  "name": "followbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch '*.js' --exec index.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "volta": {
+    "node": "18.15.0"
+  },
+  "author": "@jsonpreet",
+  "license": "ISC",
+  "type": "module"
+}
