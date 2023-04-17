@@ -15,6 +15,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
+    "unfollow": "nodemon unfollow.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon --watch '*.js' --exec index.js"
   },
